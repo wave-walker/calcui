@@ -1,0 +1,98 @@
+@font-face {
+    font-family: mr;
+    src: url(/font/Montserrat/Montserrat-Regular.ttf);
+}
+body{
+    background-image: linear-gradient(0deg, #DEE3EB, #DEE3EB);
+    color: #fff;
+    height: 100vh;
+    width: 100vw;
+    display: grid;
+    place-items: center;
+
+}
+.container{
+    background-color: #303741;
+    height: 470px;
+    width: 225px;
+    border-radius: 30px;
+    padding: 10px;
+    box-shadow: 30px 15px 35px 0 #757580;
+}
+.voice{
+    background-color: #596370;
+    padding: 10px 15px;
+    color: white;
+    border-radius: 25px 25px 25px 0;
+    box-shadow: 1px 2px 5px #212327;
+}
+.screen{
+    height: 30%;
+    position: relative;
+    top: 50px; 
+    text-align: end;
+}
+p{
+    font-family: mr;
+    margin: 0 5px 0 0;
+}
+.answer{
+    font-family: mr;
+    font-size: 40px;
+    margin: 2px;
+}
+
+button{
+    padding: 12px;
+    border-radius: 16px;
+    font-family: mr;
+    font-size: 15px;
+    box-shadow: 0 0 10px 0 #1d2127;
+}
+.btns{
+    text-align: center;
+}
+.pwrbtn{
+    color: #0f0;
+    /* display: block; */
+    margin: auto;
+}
+.lwrbtn{
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-gap: 5px;
+    margin: 5px;
+
+}
+.uprbtn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+    margin: 5px;
+
+}
+#zero{
+    border-radius: 15px;
+}
+.orange{
+    border: ridge 3px;
+    border-image: linear-gradient(150deg, #E48F1A,#d4651a);
+    background-image: linear-gradient(150deg, #d4651a, #E48F1A);
+    color: white;
+}
+.orange:hover{
+    box-shadow: 0 0 10px #ff7301;
+}
+
+.drkGray{
+    border: ridge 3px;
+    border-image: linear-gradient(50deg, #dddddd, #363b44);
+    background-image: linear-gradient(150deg, #353b47, #363b49);
+    color: white;
+}
+.ltGray{
+    border: ridge 3px;
+    border-image: linear-gradient(150deg, #636D80, #475362);
+    background-image: linear-gradient(150deg, #475362, #636D80);
+    color: white;
+}
